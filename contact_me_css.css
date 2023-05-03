@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	text-align:center;
+	font-size:50pt;
+}
+dt{
+	font-size:25pt;
+	color:black;
+}
+dd{
+	font-size:15pt;
+	color:black;
+}
+*{
+	background-color:lightgray; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: seagreen;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color:lightgray;
+}
+/* Include padding and border in total box size*/
+* {
+  box-sizing: border-box;
+}
+/*https://www.w3schools.com/howto/howto_css_two_columns.asp*/
+.column {
+  float: left;
+  width: 50%;
+  background-color: darkseagreen;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h2 {
+	background-color: darkseagreen;
+}
+a {
+	background-color:darkseagreen;
+}
